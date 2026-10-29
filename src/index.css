@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --bg: #0a0a12;
+  --bg-alt: #120f1e;
+  --panel: #1a1530;
+  --neon-pink: #ff2fd1;
+  --neon-cyan: #4cf3ff;
+  --neon-yellow: #ffd300;
+  --text: #f2f0ff;
+  --text-muted: #9a94c2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* :focus {
+  outline: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.brand__name,
+.hero__title,
+.footer-title {
+  font-family: 'Press Start 2P', 'Segoe UI', system-ui, sans-serif;
+}
+
+a {
+  color: var(--neon-cyan);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
